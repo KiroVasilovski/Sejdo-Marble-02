@@ -8,3 +8,8 @@
     background-color: #1a1b1f;
     color: white;
 }
+
+.btn--primary :hover {
+    color: red;
+    transition: 0.5s;
+}

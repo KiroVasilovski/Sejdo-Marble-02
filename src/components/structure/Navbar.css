@@ -1,5 +1,5 @@
 .navbar {
-    background: #dddcdb;
+    background: #ffffff;
     height: auto;
     text-transform: uppercase;
     position: sticky;
@@ -43,6 +43,12 @@
 
 .nav-links:hover {
     color: #4c453d;
+    transition: 0.5s;
+}
+
+.btn--primary:hover {
+    color: #cac4bc;
+    transition: 0.5s;
 }
 
 .menu-icon {
@@ -58,19 +64,18 @@
         display: none;
     }
 
-    .nav-menu.active {
+    .active {
         position: fixed;
         top: 45px;
         left: 0;
-        height: 50%;
-        background-color: #dddcdb;
+        height: 70%;
+        background-color: #ffffff;
         width: 100%;
         display: flex;
         gap: 1.5rem;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        transition: 1s;
         z-index: 1;
     }
 

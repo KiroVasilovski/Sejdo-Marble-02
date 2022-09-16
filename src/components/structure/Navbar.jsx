@@ -18,7 +18,8 @@ function Navbar() {
                     <a href="https://imgur.com/YpqzS2z">
                         <img
                             src="https://i.imgur.com/YpqzS2z.png"
-                            title="source: imgur.com"
+                            title="Sejdo Marble"
+                            alt="Sejdo brand"
                             width="54"
                         />
                     </a>

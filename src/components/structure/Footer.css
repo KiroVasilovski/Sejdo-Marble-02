@@ -1,0 +1,7 @@
+.footer-container {
+    height: 45vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url("https://i.imgur.com/X9WRLuC.png");
+}
