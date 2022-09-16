@@ -14,7 +14,7 @@ function Navbar() {
     return (
         <nav className="navbar">
             <div className="navbar-container">
-                <Link to="/" onClick={closeMobileMenu}>
+                <Link className="brand" to="/" onClick={closeMobileMenu}>
                     Sejdo
                 </Link>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -54,6 +54,13 @@ function Navbar() {
                             About us
                         </Link>
                     </li>
+                    <Link
+                        className="nav-link-contact"
+                        to={"/contact"}
+                        onClick={closeMobileMenu}
+                    >
+                        <button className="nav-item-contact">Contact Us</button>
+                    </Link>
                 </ul>
                 <div className="contact">
                     <Link to={"/contact"} onClick={closeMobileMenu}>

@@ -32,6 +32,10 @@
     padding: 9px 20px 9px 20px;
 }
 
+.nav-item-contact {
+    display: none;
+}
+
 .nav-links {
     text-decoration: none;
     color: #6d6861;
@@ -55,15 +59,44 @@
     }
 
     .nav-menu.active {
+        position: fixed;
+        top: 45px;
+        left: 0;
+        height: 50%;
+        background-color: #dddcdb;
+        width: 100%;
         display: flex;
+        gap: 1.5rem;
         flex-direction: column;
-        transition: all 0.5s ease-in;
+        align-items: center;
+        justify-content: center;
+        transition: 1s;
         z-index: 1;
+    }
+
+    .nav-item-contact {
+        display: flex;
+        margin-top: 15px;
+        padding: 12px 25px;
+        width: 20rem;
+        cursor: pointer;
+        text-transform: uppercase;
+        background-color: #1a1b1f;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-link-contact {
+        text-decoration: none;
+        list-style: none;
+        color: white;
     }
 
     .menu-icon {
         display: block;
         position: relative;
         cursor: pointer;
+        font-size: 3rem;
     }
 }
