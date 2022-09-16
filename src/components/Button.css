@@ -1,0 +1,10 @@
+.btn {
+    padding: 12px 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn--primary {
+    background-color: #1a1b1f;
+    color: white;
+}
