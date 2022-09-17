@@ -1,7 +1,128 @@
 .footer-container {
-    height: 45vh;
+    height: 280px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
     background-image: url("https://i.imgur.com/X9WRLuC.png");
+}
+
+.header-container {
+    width: 70%;
+}
+
+.text-h1 {
+    padding: 24px;
+    color: #c2b59b;
+    font-size: 1.5rem;
+}
+
+.text-p-link {
+    padding: 24px;
+    color: #c2b59b;
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-left: 37px;
+}
+
+.social-icon-link {
+    font-size: 35px;
+    color: #c2b59b;
+}
+
+.website-rights {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    color: #e6dcc9;
+    font-size: 12px;
+}
+
+.privacy-policy {
+    color: #c2b59b;
+}
+
+.privacy-policy-link {
+    padding-left: 24px;
+    color: #c2b59b;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 867px) {
+    .text-h1 {
+        padding: 18px;
+    }
+
+    .text-p-link {
+        padding: 18px;
+    }
+
+    .social-icons {
+        margin-left: 31px;
+    }
+
+    .privacy-policy-link {
+        padding-left: 18px;
+    }
+
+    .website-rights {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .footer-container {
+        height: 150px;
+    }
+
+    .text-h1 {
+        margin: 0px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        font-size: 0.8rem;
+    }
+
+    .text-p {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .text-p-link {
+        padding-left: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: 10px;
+    }
+
+    .social-icons {
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        gap: 1.5rem;
+    }
+
+    .social-icon-link {
+        font-size: 20px;
+    }
+
+    .privacy-policy {
+        margin: 0px;
+    }
+
+    .privacy-policy-link {
+        padding-left: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: 10px;
+    }
+
+    .website-rights {
+        margin-top: 13px;
+        font-size: 8px;
+    }
 }
