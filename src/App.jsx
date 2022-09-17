@@ -12,7 +12,6 @@ function App() {
     return (
         <div>
             <Navbar />
-            <h1> Delete me afterwards! </h1>
             <Routes>
                 <Route path="/" exact element={<Home />} />
                 <Route path="/services" element={<Services />} />

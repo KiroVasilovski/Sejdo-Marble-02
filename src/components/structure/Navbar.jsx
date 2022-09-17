@@ -15,12 +15,12 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 <Link className="brand" to="/" onClick={closeMobileMenu}>
-                    <a href="https://imgur.com/YpqzS2z">
+                    <a href="https://imgur.com/HKnInnG">
                         <img
-                            src="https://i.imgur.com/YpqzS2z.png"
+                            src="https://i.imgur.com/HKnInnG.png"
                             title="Sejdo Marble"
                             alt="Sejdo brand"
-                            width="54"
+                            width="140"
                         />
                     </a>
                 </Link>
