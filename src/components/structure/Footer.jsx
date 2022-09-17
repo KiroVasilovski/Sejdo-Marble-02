@@ -32,7 +32,7 @@ function Footer() {
                     className="social-icon-link"
                     to={{
                         pathname:
-                            "https://www.instagram.com/naturstein.mermer_sejdo/",
+                            "https://www.instagram.com/sejdomarble/?hl=en",
                     }}
                     target="_blank"
                     aria-label="Instagram"
@@ -42,7 +42,7 @@ function Footer() {
             </div>
             <div className="privacy-policy-container">
                 <p className="privacy-policy">
-                    <Link className="privacy-policy-link" to="/contact">
+                    <Link className="privacy-policy-link" to="/privacy">
                         Privacy Policy
                     </Link>
                 </p>
