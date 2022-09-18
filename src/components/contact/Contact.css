@@ -1,6 +1,5 @@
 .whole-container {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 30px;
 }
 
 .whole-container-down {
@@ -21,6 +20,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 20px;
 }
 
 .contactForm {
@@ -45,33 +45,6 @@
     text-decoration: none;
 }
 
-.photo-container {
-    height: 300px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 80%;
-    background-image: url("https://i.imgur.com/RMGmfNv.jpg");
-    border-radius: 50%;
-}
-
-.photo-container-2 {
-    height: 300px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-image: url("https://i.imgur.com/mS6hZf6.jpg");
-    border-radius: 50%;
-}
-
-.photo-container-3 {
-    height: 300px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-image: url("https://i.imgur.com/tZc5xFZ.jpg");
-    border-radius: 50%;
-}
-
 .photo-container-text {
     text-align: center;
     text-transform: uppercase;
@@ -86,19 +59,57 @@
     margin: 0;
 }
 
+.photo-container-text img {
+    width: 200px;
+    object-fit: contain;
+    border-radius: 30px;
+    border: 1px solid;
+}
+
+.team-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.team-specifications {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 800px) {
+    .team-specifications {
+        flex-direction: column;
+    }
+
+    .photo-container-text img {
+        width: 260px;
+    }
+}
+
 @media screen and (max-width: 739px) {
-    .photo-container {
-        height: 200px;
-        border-radius: 0%;
+    .whole-container {
+        margin: 20px;
     }
 
-    .photo-container-2 {
-        height: 200px;
-        border-radius: 0%;
+    .whole-container-down {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .photo-container-3 {
-        height: 200px;
-        border-radius: 0%;
+    .info-container {
+        margin: 20px;
+        padding-left: 0px;
+    }
+
+    .contactForm {
+        padding-left: 00px;
     }
 }

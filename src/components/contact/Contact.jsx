@@ -271,8 +271,8 @@ export default function Contact() {
                     marginWidth="0"
                 ></iframe>
             </div>
-            <Container>
-                <Box sx={{ mt: 4, mb: 3 }}>
+            <div className="team-container">
+                <div>
                     <Typography
                         variant="h4"
                         display="flex"
@@ -281,80 +281,58 @@ export default function Contact() {
                         Our Team
                     </Typography>
                     <br />
-                    <Box>
-                        <Stack
-                            direction={{
-                                xs: "column",
-                                sm: "column",
-                                md: "row",
-                            }}
-                            alignItems="center"
-                        >
-                            <Box
-                                sx={{
-                                    width: 1 / 3,
-                                    pr: 8,
-                                    ml: 2,
-                                }}
-                            >
-                                <div className="photo-container"></div>
-                                <div className="photo-container-text">
-                                    <h4>Orion Sejdo</h4>
-                                    <p>Orion@sejdomarble.com</p>
-                                    <p>
-                                        <a
-                                            href="tel:+355 67 20 22 020"
-                                            className="telephone"
-                                        >
-                                            +355 67 20 22 020
-                                        </a>
-                                    </p>
-                                </div>
-                            </Box>
-                            <Box
-                                sx={{
-                                    width: 1 / 3,
-                                    pr: 8,
-                                }}
-                            >
-                                <div className="photo-container-2"> </div>
-                                <div className="photo-container-text">
-                                    <h4>Orelsi Sejdo</h4>
-                                    <p>Orelsi@sejdomarble.com</p>
-                                    <p>
-                                        <a
-                                            href="tel:+49 176 363 38 158"
-                                            className="telephone"
-                                        >
-                                            +49 176 363 38 158
-                                        </a>
-                                    </p>
-                                </div>
-                            </Box>
-                            <Box
-                                sx={{
-                                    width: 1 / 3,
-                                    mr: 2,
-                                }}
-                            >
-                                <div className="photo-container-3"> </div>
-                                <div className="photo-container-text">
-                                    <h4>Arti Sejdo</h4>
-                                    <p>Arti@sejdomarble.com</p>
-                                    <p>
-                                        <a
-                                            href="tel:+355 67 20 22 022"
-                                            className="telephone"
-                                        >
-                                            +355 67 20 22 022
-                                        </a>
-                                    </p>
-                                </div>
-                            </Box>
-                        </Stack>
-                    </Box>
-                </Box>
-            </Container>
+                    <div className="team-specifications">
+                        <div>
+                            <div className="photo-container"></div>
+                            <div className="photo-container-text">
+                                <img src="https://i.imgur.com/eBTMw1P.jpg" />
+                                <h4>Orion Sejdo</h4>
+                                <p>Orion@sejdomarble.com</p>
+                                <p>
+                                    <a
+                                        href="tel:+355 67 20 22 020"
+                                        className="telephone"
+                                    >
+                                        +355 67 20 22 020
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <div className="photo-container-2"> </div>
+                            <div className="photo-container-text">
+                                <img src="https://i.imgur.com/utPHHzY.jpg" />
+                                <h4>Orelsi Sejdo</h4>
+                                <p>Orelsi@sejdomarble.com</p>
+                                <p>
+                                    <a
+                                        href="tel:+49 176 363 38 158"
+                                        className="telephone"
+                                    >
+                                        +49 176 363 38 158
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <div className="photo-container-3"> </div>
+                            <div className="photo-container-text">
+                                <img src="https://i.imgur.com/msf4HXw.jpg" />
+                                <h4>Arti Sejdo</h4>
+                                <p>Arti@sejdomarble.com</p>
+                                <p>
+                                    <a
+                                        href="tel:+355 67 20 22 022"
+                                        className="telephone"
+                                    >
+                                        +355 67 20 22 022
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </>
     );
 }
