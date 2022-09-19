@@ -90,7 +90,7 @@ label:hover {
     }
 }
 
-@media screen and (max-width: 679px) {
+@media screen and (max-width: 750px) {
     .photo-gallery {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 20px;

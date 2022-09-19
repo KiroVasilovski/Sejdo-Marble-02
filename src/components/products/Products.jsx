@@ -240,7 +240,6 @@ function Products() {
                                 </Link>
                                 <div className="pic-description">
                                     <h4 className="pic-description-h">
-                                        {" "}
                                         {item.title}
                                     </h4>
                                 </div>
@@ -249,7 +248,6 @@ function Products() {
                     })}
                 </div>
             </div>
-            <div class="clearfix"></div>
         </div>
     );
 }
