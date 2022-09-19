@@ -25,7 +25,7 @@
 }
 
 .top-content {
-    background-color: grey;
+    background-color: #4c453c;
     width: 90%;
     margin: 0 auto 20px auto;
     height: 60px;
@@ -36,19 +36,21 @@
 
 .heading-3 {
     height: 100%;
-    background-color: rgb(180, 168, 168);
+    background-color: #c2b59b;
     line-height: 60px;
     padding: 0 50px;
     color: white;
 }
 
-.top-content label {
+.filter-btn {
+    border: 0;
     display: inline-block;
     height: 100%;
     padding: 0 5px;
     margin: 0 20px;
     line-height: 60px;
     font-size: 18px;
+    background-color: transparent;
     color: white;
     cursor: pointer;
     transition: 0.5s;
@@ -80,7 +82,8 @@ label:hover {
 }
 
 .picture:hover {
-    opacity: 0.7;
+    transform: scale(1.1);
+    transition: 0.3s all ease-in-out;
 }
 
 @media screen and (max-width: 1024px) {
@@ -97,7 +100,7 @@ label:hover {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 520px) {
     .heading-3 {
         display: none;
     }
