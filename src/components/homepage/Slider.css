@@ -1,0 +1,18 @@
+.each-slide {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.each-slide > div {
+    width: 100%;
+}
+
+.each-slide > div img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.each-slide .image-holder p {
+}
