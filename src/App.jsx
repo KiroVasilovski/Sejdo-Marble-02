@@ -7,11 +7,13 @@ import Services from "./components/services/Services";
 import Navbar from "./components/structure/Navbar";
 import About from "./components/about/About";
 import Footer from "./components/structure/Footer";
+import ScrollToTop from "./components/structure/ScrollToTop";
 
 function App() {
     return (
         <div>
             <Navbar />
+            <ScrollToTop />
             <Routes>
                 <Route path="/" exact element={<Home />} />
                 <Route path="/services" element={<Services />} />
