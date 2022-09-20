@@ -1,10 +1,7 @@
 import React, { useRef, useState } from "react";
 import Box from "@mui/material/Box";
-import Container from "@mui/material/Container";
-import Stack from "@mui/material/Stack";
 import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
-import Grid from "@mui/material/Grid";
 import { Button } from "../Button";
 import axios from "axios";
 import ReCAPTCHA from "react-google-recaptcha";
@@ -261,6 +258,7 @@ export default function Contact() {
             </div>
             <div>
                 <iframe
+                    title="map"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.5580836534364!2d20.969068314661587!3d40.63962674997822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1350a90ebfb2908f%3A0xa4cc867c05b4f5ad!2sSejdo%20SHPK!5e0!3m2!1sen!2sde!4v1663442020634!5m2!1sen!2sde"
                     className="google-maps"
                     id="gmap_canvas"
@@ -285,7 +283,10 @@ export default function Contact() {
                         <div>
                             <div className="photo-container"></div>
                             <div className="photo-container-text">
-                                <img src="https://i.imgur.com/eBTMw1P.jpg" />
+                                <img
+                                    alt="Team member"
+                                    src="https://i.imgur.com/eBTMw1P.jpg"
+                                />
                                 <h4>Orion Sejdo</h4>
                                 <p>Orion@sejdomarble.com</p>
                                 <p>
@@ -301,7 +302,10 @@ export default function Contact() {
                         <div>
                             <div className="photo-container-2"> </div>
                             <div className="photo-container-text">
-                                <img src="https://i.imgur.com/utPHHzY.jpg" />
+                                <img
+                                    alt="Team member"
+                                    src="https://i.imgur.com/utPHHzY.jpg"
+                                />
                                 <h4>Orelsi Sejdo</h4>
                                 <p>Orelsi@sejdomarble.com</p>
                                 <p>
@@ -317,7 +321,10 @@ export default function Contact() {
                         <div>
                             <div className="photo-container-3"> </div>
                             <div className="photo-container-text">
-                                <img src="https://i.imgur.com/msf4HXw.jpg" />
+                                <img
+                                    alt="Team member"
+                                    src="https://i.imgur.com/msf4HXw.jpg"
+                                />
                                 <h4>Arti Sejdo</h4>
                                 <p>Arti@sejdomarble.com</p>
                                 <p>

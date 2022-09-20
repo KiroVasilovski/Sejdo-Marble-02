@@ -235,6 +235,7 @@ function Products() {
                             <div className={`pic ${item.type}`} key={title}>
                                 <Link to={`/products/${item.url}`}>
                                     <img
+                                        alt={`${item.title}`}
                                         className="picture"
                                         src={item.img}
                                         style={{
