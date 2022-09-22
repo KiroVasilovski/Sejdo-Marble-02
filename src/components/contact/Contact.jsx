@@ -281,13 +281,33 @@ export default function Contact() {
                     <br />
                     <div className="team-specifications">
                         <div>
-                            <div className="photo-container"></div>
                             <div className="photo-container-text">
                                 <img
                                     alt="Team member"
-                                    src="https://i.imgur.com/eBTMw1P.jpg"
+                                    src="https://i.imgur.com/PFr0T2t.jpg"
                                 />
-                                <h4>Orion Sejdo</h4>
+                                <h4>Arti Sejdo (CEO)</h4>
+                                <p>Arti@sejdomarble.com</p>
+                                <p>
+                                    <a
+                                        href="tel:+355 67 20 22 022"
+                                        className="telephone"
+                                    >
+                                        +355 67 20 22 022
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <div className="photo-container-text">
+                                <img
+                                    alt="Team member"
+                                    src="https://i.imgur.com/MIAKxEt.jpg"
+                                />
+                                <h4>
+                                    Orion Sejdo <br />
+                                    (Administrator)
+                                </h4>
                                 <p>Orion@sejdomarble.com</p>
                                 <p>
                                     <a
@@ -300,13 +320,15 @@ export default function Contact() {
                             </div>
                         </div>
                         <div>
-                            <div className="photo-container-2"> </div>
                             <div className="photo-container-text">
                                 <img
                                     alt="Team member"
                                     src="https://i.imgur.com/utPHHzY.jpg"
                                 />
-                                <h4>Orelsi Sejdo</h4>
+                                <h4>
+                                    Orelsi Sejdo <br />
+                                    (Sales Manager)
+                                </h4>
                                 <p>Orelsi@sejdomarble.com</p>
                                 <p>
                                     <a
@@ -314,25 +336,6 @@ export default function Contact() {
                                         className="telephone"
                                     >
                                         +49 176 363 38 158
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
-                        <div>
-                            <div className="photo-container-3"> </div>
-                            <div className="photo-container-text">
-                                <img
-                                    alt="Team member"
-                                    src="https://i.imgur.com/msf4HXw.jpg"
-                                />
-                                <h4>Arti Sejdo</h4>
-                                <p>Arti@sejdomarble.com</p>
-                                <p>
-                                    <a
-                                        href="tel:+355 67 20 22 022"
-                                        className="telephone"
-                                    >
-                                        +355 67 20 22 022
                                     </a>
                                 </p>
                             </div>

@@ -18,37 +18,37 @@ const Slideshow = () => {
             <Fade indicators={true}>
                 <div className="each-slide">
                     <div className="image-holder">
-                        <img src={images[0]} />
+                        <img src={images[0]} alt="First Slide" />
                         <p>First Slide</p>
                     </div>
                 </div>
                 <div className="each-slide">
                     <div className="image-holder">
-                        <img src={images[1]} />
+                        <img src={images[1]} alt="Second Slide" />
                         <p>Second Slide</p>
                     </div>
                 </div>
                 <div className="each-slide">
                     <div className="image-holder">
-                        <img src={images[2]} />
+                        <img src={images[2]} alt="Third Slide" />
                         <p>Third Slide</p>
                     </div>
                 </div>
                 <div className="each-slide">
                     <div className="image-holder">
-                        <img src={images[3]} />
+                        <img src={images[3]} alt="Fourth Slide" />
                         <p>Fr Slide</p>
                     </div>
                 </div>
                 <div className="each-slide">
                     <div className="image-holder">
-                        <img src={images[4]} />
+                        <img src={images[4]} alt="Fivth Slide" />
                         <p>Fv Slide</p>
                     </div>
                 </div>
                 <div className="each-slide">
                     <div className="image-holder">
-                        <img src={images[5]} />
+                        <img src={images[5]} alt="Sixth Slide" />
                         <p>Fv Slide</p>
                     </div>
                 </div>
