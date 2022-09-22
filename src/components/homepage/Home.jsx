@@ -1,10 +1,14 @@
 import React from "react";
 import Slideshow from "./Slider";
+import PageSection from "../structure/PageSection";
+import { homeObjOne, homeObjTwo } from "./PagesData";
 
 function Home() {
     return (
         <div>
-            <Slideshow /> <h1> I am Homepage </h1>
+            <Slideshow />
+            <PageSection {...homeObjOne} />
+            <PageSection {...homeObjTwo} />
         </div>
     );
 }

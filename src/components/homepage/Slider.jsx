@@ -15,7 +15,7 @@ const Slideshow = () => {
 
     return (
         <div>
-            <Fade indicators={true}>
+            <Fade canSwipe={true}>
                 <div className="each-slide">
                     <div className="image-holder">
                         <img src={images[0]} alt="First Slide" />
