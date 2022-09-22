@@ -15,7 +15,7 @@ const Slideshow = () => {
 
     return (
         <div>
-            <Fade>
+            <Fade indicators={true}>
                 <div className="each-slide">
                     <div className="image-holder">
                         <img src={images[0]} />
