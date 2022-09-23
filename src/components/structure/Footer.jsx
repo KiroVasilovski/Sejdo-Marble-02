@@ -19,27 +19,22 @@ function Footer() {
                     </p>
                 </div>
                 <div className="social-icons">
-                    <Link
+                    <a
                         className="social-icon-link"
-                        to={{
-                            pathname: "https://www.facebook.com/MermerSejdo/",
-                        }}
+                        href="https://www.facebook.com/MermerSejdo/"
                         target="_blank"
                         aria-label="Facebook"
                     >
                         <FaFacebook />
-                    </Link>
-                    <Link
+                    </a>
+                    <a
                         className="social-icon-link"
-                        to={{
-                            pathname:
-                                "https://www.instagram.com/sejdomarble/?hl=en",
-                        }}
+                        href="https://www.instagram.com/sejdomarble/?hl=en"
                         target="_blank"
                         aria-label="Instagram"
                     >
                         <FaInstagram />
-                    </Link>
+                    </a>
                 </div>
                 <div className="privacy-policy-container">
                     <p className="privacy-policy">

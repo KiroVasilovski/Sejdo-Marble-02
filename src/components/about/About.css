@@ -1,0 +1,25 @@
+.Under-Construction {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+
+.Under-Construction-image {
+    margin-top: 80px;
+    width: 80%;
+}
+
+@media screen and (max-width: 800px) {
+    .Under-Construction {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .Under-Construction {
+        font-size: 16px;
+    }
+}
