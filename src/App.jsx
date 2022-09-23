@@ -8,6 +8,7 @@ import Navbar from "./components/structure/Navbar";
 import About from "./components/about/About";
 import Footer from "./components/structure/Footer";
 import ScrollToTop from "./components/structure/ScrollToTop";
+import Privacy from "./components/structure/Privacy";
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
                 <Route path="/products" element={<Products />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/about" element={<About />} />
+                <Route path="/privacy" element={<Privacy />} />
             </Routes>
             <Footer />
         </div>
