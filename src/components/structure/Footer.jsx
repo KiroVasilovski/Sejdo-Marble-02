@@ -14,7 +14,7 @@ function Footer() {
 
                     <p className="text-p">
                         <Link className="text-p-link" to="/contact">
-                            Contact us for more!
+                            Contact us for more information!
                         </Link>
                     </p>
                 </div>
