@@ -210,7 +210,7 @@ function Products() {
 
     return (
         <div className="all">
-            <div className="container">
+            <div className="products-container">
                 <h1 className="heading-1">Our Granite and Marble Selection</h1>
                 <div className="top-content">
                     <h3 className="heading-3">Products</h3>
