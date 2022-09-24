@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 export default function Contact() {
     const formId = "a0yqRTry";
     const formSparkUrl = `https://submit-form.com/${formId}`;
-    const recaptchaKey = "6LdckGAgAAAAAI0IlEpf25k9BOJ1ThomuhKcSWUM";
+    const recaptchaKey = "6LcDTCgiAAAAALG8UmB3CyRKKMBtKrupk4eO6uf0";
     const recaptchaRef = useRef();
 
     const initialFormState = {
