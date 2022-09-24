@@ -24,6 +24,7 @@ function Footer() {
                         href="https://www.facebook.com/MermerSejdo/"
                         target="_blank"
                         aria-label="Facebook"
+                        rel="noopener noreferrer"
                     >
                         <FaFacebook />
                     </a>
@@ -32,6 +33,7 @@ function Footer() {
                         href="https://www.instagram.com/sejdomarble/?hl=en"
                         target="_blank"
                         aria-label="Instagram"
+                        rel="noopener noreferrer"
                     >
                         <FaInstagram />
                     </a>
