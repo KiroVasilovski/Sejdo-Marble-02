@@ -143,7 +143,7 @@ export default function Contact() {
                                         className="checkbox-input"
                                         value={formState?.Checkbox}
                                     />
-                                    <label for="privacy">
+                                    <label>
                                         I have read and agree to the{" "}
                                         <Link
                                             to="/privacy"

@@ -2,10 +2,10 @@ export const homeObjOne = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: "EASY SETUP",
-    headline: "Super fast and simple onboarding process",
+    topLine: "Big Products Variety",
+    headline: "Choose from our best selected marble pieces",
     description:
-        "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
+        "Sejdo Marble offers a big range of granite and marble to precisely meet the demands of our customers.",
     buttonLabel: "Start Now",
     img: "https://i.imgur.com/QgaujOF.jpg",
     alt: "Vault",

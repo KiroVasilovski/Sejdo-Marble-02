@@ -15,14 +15,12 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 <Link className="brand" to="/" onClick={closeMobileMenu}>
-                    <a href="https://imgur.com/HKnInnG">
-                        <img
-                            src="https://i.imgur.com/RtWx3ca.png"
-                            title="Sejdo Marble"
-                            alt="Sejdo brand"
-                            width="140"
-                        />
-                    </a>
+                    <img
+                        src="https://i.imgur.com/RtWx3ca.png"
+                        title="Sejdo Marble"
+                        alt="Sejdo brand"
+                        width="140"
+                    />
                 </Link>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className="nav-item">
