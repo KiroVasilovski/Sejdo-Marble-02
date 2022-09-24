@@ -1,5 +1,4 @@
 .home__hero-section {
-    background-color: #c2b59b;
     width: 100%;
     padding: 80px 0;
     max-width: 1700px;
@@ -59,15 +58,11 @@
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
-    color: #f7f8fa;
+    color: #1c2237;
 }
 
 .dark {
     color: #1c2237 !important;
-}
-
-.darkBg {
-    background-color: #4c453c;
 }
 
 .home__hero-subtitle {
@@ -77,7 +72,7 @@
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
-    color: white;
+    color: #1c2237;
 }
 
 .home__hero-img-wrapper {
@@ -96,6 +91,22 @@
 }
 
 @media screen and (max-width: 984px) {
+    .home__hero-section {
+        background-color: #c2b59b;
+    }
+
+    .darkBg {
+        background-color: #4c453c;
+    }
+
+    .heading {
+        color: white;
+    }
+
+    .home__hero-subtitle {
+        color: white;
+    }
+
     .home__hero-row {
         flex-direction: column;
     }
