@@ -1,7 +1,7 @@
 {
     "name": "sejdo-marble-02",
     "version": "0.1.0",
-    "homepage": "https://kirovasilovski.github.io/Sejdo-Marble-02",
+    "homepage": "https://sejdomarble.com",
     "private": true,
     "dependencies": {
         "@emotion/react": "^11.10.4",
