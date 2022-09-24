@@ -2,24 +2,40 @@ export const homeObjOne = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: "Big Products Variety",
+    topLine: "Huge Products Variety",
     headline: "Choose from our best selected marble pieces",
     description:
         "Sejdo Marble offers a big range of granite and marble to precisely meet the demands of our customers.",
-    buttonLabel: "Start Now",
+    buttonLabel: "Learn more",
+    buttonLink: "/products",
     img: "https://i.imgur.com/QgaujOF.jpg",
-    alt: "Vault",
+    alt: "Products",
 };
 
 export const homeObjTwo = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: "Exclusive Access",
-    headline: "Unlimited Transactions with zero fees",
+    topLine: "Quality Service",
+    headline: "We give attention to every piece",
     description:
-        "Get access to our exclusive diamond card that allows you to  send unlimited transactions without getting charged any fees",
-    buttonLabel: "Get Started",
+        "Sejdo Marble delivers quality which is built up for almost 25 years of experience.",
+    buttonLabel: "Our Services",
+    buttonLink: "/services",
     img: "https://i.imgur.com/AgrParW.jpg",
-    alt: "Credit Card",
+    alt: "Services",
+};
+
+export const homeObjThree = {
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: "Passion and experience",
+    headline: "Started in 1997 with no plan, but big Passion",
+    description:
+        "At first we started importing and refining our best stone pieces from Greece. Our main Goal being the best Quality, Sejdo Marble is surely climbing the ladder of success and also expanding itself.",
+    buttonLabel: "Learn more",
+    buttonLink: "/products",
+    img: "https://i.imgur.com/sMKLa6i.jpg",
+    alt: "Products",
 };

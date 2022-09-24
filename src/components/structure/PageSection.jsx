@@ -11,6 +11,7 @@ function PageSection({
     headline,
     description,
     buttonLabel,
+    buttonLink,
     img,
     alt,
 }) {
@@ -48,7 +49,7 @@ function PageSection({
                                 >
                                     {description}
                                 </p>
-                                <Link to="/sign-up">
+                                <Link to={buttonLink}>
                                     <Button
                                         buttonSize="btn--wide"
                                         buttonColor="blue"

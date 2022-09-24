@@ -1,7 +1,7 @@
 import React from "react";
 import Slideshow from "./Slider";
 import PageSection from "../structure/PageSection";
-import { homeObjOne, homeObjTwo } from "./PagesData";
+import { homeObjOne, homeObjTwo, homeObjThree } from "./PagesData";
 
 function Home() {
     return (
@@ -9,6 +9,7 @@ function Home() {
             <Slideshow />
             <PageSection {...homeObjOne} />
             <PageSection {...homeObjTwo} />
+            <PageSection {...homeObjThree} />
         </div>
     );
 }
