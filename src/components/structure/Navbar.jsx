@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { CgClose } from "react-icons/cg";
-import { HiMenuAlt3 } from "react-icons/hi";
+import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { Button } from "../Button";
 import "./Navbar.css";
 
@@ -17,7 +17,7 @@ function Navbar() {
                 <Link className="brand" to="/" onClick={closeMobileMenu}>
                     <a href="https://imgur.com/HKnInnG">
                         <img
-                            src="https://i.imgur.com/HKnInnG.png"
+                            src="https://i.imgur.com/RtWx3ca.png"
                             title="Sejdo Marble"
                             alt="Sejdo brand"
                             width="140"
@@ -75,7 +75,7 @@ function Navbar() {
                     </Link>
                 </div>
                 <div className="menu-icon" onClick={handleClick}>
-                    {click ? <CgClose /> : <HiMenuAlt3 />}
+                    {click ? <CgClose /> : <HiOutlineMenuAlt3 />}
                 </div>
             </div>
         </nav>

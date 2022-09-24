@@ -1,7 +1,19 @@
 import React from "react";
 
 function Privacy() {
-    return <h1>Privacy</h1>;
+    return (
+        <>
+            <div className="Under-Construction">
+                <img
+                    className="Under-Construction-image"
+                    src="https://i.imgur.com/RtWx3ca.png"
+                    alt="Girl in a jacket"
+                />
+
+                <h1> Page is Under Construction! </h1>
+            </div>
+        </>
+    );
 }
 
 export default Privacy;
