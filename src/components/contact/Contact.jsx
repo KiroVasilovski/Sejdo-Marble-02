@@ -151,6 +151,7 @@ export default function Contact() {
                                         >
                                             Privacy Policy
                                         </Link>
+                                        .
                                     </label>
                                 </div>
                                 <ReCAPTCHA
@@ -215,6 +216,7 @@ export default function Contact() {
                                     Contact:
                                 </Typography>
                                 <Typography variant="p">
+                                    Tel:{" "}
                                     <a
                                         href="tel:+355 67 20 22 022"
                                         className="telephone"
@@ -224,8 +226,9 @@ export default function Contact() {
                                 </Typography>
                                 <br />
                                 <Typography variant="p">
+                                    Tel:{" "}
                                     <a
-                                        href="tel:++355 67 20 22 020"
+                                        href="tel:+355 67 20 22 020"
                                         className="telephone"
                                     >
                                         +355 67 20 22 020
@@ -233,6 +236,7 @@ export default function Contact() {
                                 </Typography>
                                 <br />
                                 <Typography variant="p">
+                                    Tel:{" "}
                                     <a
                                         href="tel:+49 176 363 38 158"
                                         className="telephone"
@@ -287,28 +291,9 @@ export default function Contact() {
                                     src="https://i.imgur.com/PFr0T2t.jpg"
                                 />
                                 <h4>Arti Sejdo (CEO)</h4>
-                                <p>Arti@sejdomarble.com</p>
-                                <p>
-                                    <a
-                                        href="tel:+355 67 20 22 022"
-                                        className="telephone"
-                                    >
-                                        +355 67 20 22 022
-                                    </a>
+                                <p className="team-emails">
+                                    Arti@sejdomarble.com
                                 </p>
-                            </div>
-                        </div>
-                        <div>
-                            <div className="photo-container-text">
-                                <img
-                                    alt="Team member"
-                                    src="https://i.imgur.com/MIAKxEt.jpg"
-                                />
-                                <h4>
-                                    Orion Sejdo <br />
-                                    (Administrator)
-                                </h4>
-                                <p>Orion@sejdomarble.com</p>
                                 <p>
                                     <a
                                         href="tel:+355 67 20 22 020"
@@ -323,13 +308,38 @@ export default function Contact() {
                             <div className="photo-container-text">
                                 <img
                                     alt="Team member"
+                                    src="https://i.imgur.com/MIAKxEt.jpg"
+                                />
+                                <h4>
+                                    Orion Sejdo <br />
+                                    (Administrator)
+                                </h4>
+                                <p className="team-emails">
+                                    Orion@sejdomarble.com
+                                </p>
+                                <p>
+                                    <a
+                                        href="tel:+355 67 20 22 022"
+                                        className="telephone"
+                                    >
+                                        +355 67 20 22 022
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <div className="photo-container-text">
+                                <img
+                                    alt="Team member"
                                     src="https://i.imgur.com/utPHHzY.jpg"
                                 />
                                 <h4>
                                     Orelsi Sejdo <br />
                                     (Sales Manager)
                                 </h4>
-                                <p>Orelsi@sejdomarble.com</p>
+                                <p className="team-emails">
+                                    Orelsi@sejdomarble.com
+                                </p>
                                 <p>
                                     <a
                                         href="tel:+49 176 363 38 158"

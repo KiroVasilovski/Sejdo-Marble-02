@@ -81,6 +81,10 @@
     margin-right: auto;
 }
 
+.team-emails {
+    font-size: small;
+}
+
 @media screen and (max-width: 800px) {
     .team-specifications {
         flex-direction: column;
