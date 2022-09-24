@@ -35,7 +35,7 @@ export const homeObjThree = {
     description:
         "At first we started importing and refining our best stone pieces from Greece. Our main Goal being the best Quality, Sejdo Marble is surely climbing the ladder of success and also expanding itself.",
     buttonLabel: "Learn more",
-    buttonLink: "/products",
+    buttonLink: "/about",
     img: "https://i.imgur.com/sMKLa6i.jpg",
-    alt: "Products",
+    alt: "About",
 };
