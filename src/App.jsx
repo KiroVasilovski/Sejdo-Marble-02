@@ -15,7 +15,7 @@ function App() {
         <div>
             <Navbar />
             <ScrollToTop />
-            <Routes>
+            <Routes basename="/Sejdo-Marble-02">
                 <Route path="/" exact element={<Home />} />
                 <Route path="/services" element={<Services />} />
                 <Route path="/products" element={<Products />} />
