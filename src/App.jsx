@@ -9,6 +9,7 @@ import About from "./components/about/About";
 import Footer from "./components/structure/Footer";
 import ScrollToTop from "./components/structure/ScrollToTop";
 import Privacy from "./components/structure/Privacy";
+import NotFound from "./components/structure/NotFound";
 
 function App() {
     return (
@@ -22,6 +23,7 @@ function App() {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/privacy" element={<Privacy />} />
+                <Route path="/*" element={<NotFound />} />
             </Routes>
             <Footer />
         </div>
