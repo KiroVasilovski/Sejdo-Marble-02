@@ -1,0 +1,53 @@
+.privacy-header {
+    background-image: url("https://i.imgur.com/X9WRLuC.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #c2b59b;
+}
+
+.privacy-policy-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    max-width: 1000px;
+}
+
+.privacy-policy-container h3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.privacy-table {
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.privacy-table,
+th,
+td {
+    border: 1px solid black;
+}
+
+.update-date {
+    margin-top: 40px;
+    text-align: right;
+}
+
+@media screen and (max-width: 1050px) {
+    .privacy-policy-container {
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .privacy-header {
+        background-position: left;
+    }
+}
