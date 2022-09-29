@@ -110,45 +110,42 @@ function Privacy() {
                     the means by which, we collect and process personal
                     information.
                 </p>
+                <h4>3.1. Contacting us</h4>
                 <p>
-                    <h4>3.1. Contacting us</h4>
-                    <p>
-                        If you contact us in relation to any of the Services
-                        (via email, telephone, post or otherwise), We may
-                        collect and retain your contact details and your
-                        communication for the purpose of handling your query and
-                        keeping records of communications.
-                    </p>
-                    <h4>3.2. Other Means of Collection</h4> We collect personal
-                    information by a variety of means and methods, including the
-                    following:
-                    <ul>
-                        <li>
-                            When you submit personal information to us
-                            voluntarily, including when communicate with us,
-                            apply for our services, or use any of our Services;
-                        </li>
-                        <li>
-                            When you visit our Website, we may collect location
-                            and other information from the internet browser you
-                            are using;
-                        </li>
-                        <li>
-                            When your communications with us provide us with
-                            certain technical formation, such as internet
-                            protocol (IP) address, browser type, time zone
-                            setting and location, device operating system, and
-                            other technologies you may use to access our Website
-                            or otherwise communicate with us;
-                        </li>
-                        <li>
-                            From third parties and public sources, including
-                            from data analytics providers for our own social
-                            media pages, like Facebook, Twitter, Instagram, and
-                            LinkedIn;
-                        </li>
-                    </ul>
+                    If you contact us in relation to any of the Services (via
+                    email, telephone, post or otherwise), We may collect and
+                    retain your contact details and your communication for the
+                    purpose of handling your query and keeping records of
+                    communications.
                 </p>
+                <h4>3.2. Other Means of Collection</h4> We collect personal
+                information by a variety of means and methods, including the
+                following:
+                <ul>
+                    <li>
+                        When you submit personal information to us voluntarily,
+                        including when communicate with us, apply for our
+                        services, or use any of our Services;
+                    </li>
+                    <li>
+                        When you visit our Website, we may collect location and
+                        other information from the internet browser you are
+                        using;
+                    </li>
+                    <li>
+                        When your communications with us provide us with certain
+                        technical formation, such as internet protocol (IP)
+                        address, browser type, time zone setting and location,
+                        device operating system, and other technologies you may
+                        use to access our Website or otherwise communicate with
+                        us;
+                    </li>
+                    <li>
+                        From third parties and public sources, including from
+                        data analytics providers for our own social media pages,
+                        like Facebook, Twitter, Instagram, and LinkedIn;
+                    </li>
+                </ul>
                 {/*3---############################################################### */}
                 <h3>4. COLLECTED DATA</h3>
                 <p>
@@ -214,52 +211,57 @@ function Privacy() {
                     </u>
                 </b>
                 <table className="privacy-table">
-                    <tr>
-                        <th>Activity</th>
-                        <th>Categories of Personal data</th>
-                    </tr>
-                    <tr>
-                        <td>Contacting Sejdo Marble support teams</td>
-                        <td>
-                            <ul>
-                                <li>Identification data.</li>
-                                <li>Contact data.</li>
-                                <li>Content of your request.</li>
-                                <li>Address.</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Allowing the visitors and Users to exercise their
-                            data protection rights
-                        </td>
-                        <td>
-                            <ul>
-                                <li>Identification data.</li>
-                                <li>Contact data.</li>
-                                <li>Content of the request.</li>
-                                <li>
-                                    Data necessary to reply to the request
-                                    addressed to Sejdo Marble.
-                                </li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Complying with legal requests or manage litigation
-                        </td>
-                        <td>
-                            <ul>
-                                <li>
-                                    Data necessary to prove Sejdo Marble’s
-                                    compliance to its obligations and/or manage
-                                    legal proceedings.
-                                </li>
-                            </ul>
-                        </td>
-                    </tr>
+                    <thead>
+                        <tr>
+                            <th>Activity</th>
+                            <th>Categories of Personal data</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Contacting Sejdo Marble support teams</td>
+                            <td>
+                                <ul>
+                                    <li>Identification data.</li>
+                                    <li>Contact data.</li>
+                                    <li>Content of your request.</li>
+                                    <li>Address.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Allowing the visitors and Users to exercise
+                                their data protection rights
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Identification data.</li>
+                                    <li>Contact data.</li>
+                                    <li>Content of the request.</li>
+                                    <li>
+                                        Data necessary to reply to the request
+                                        addressed to Sejdo Marble.
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Complying with legal requests or manage
+                                litigation
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        Data necessary to prove Sejdo Marble’s
+                                        compliance to its obligations and/or
+                                        manage legal proceedings.
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
                 </table>
                 {/*4---############################################################### */}
                 <h3>5. PURPOSE OF DATA COLLECTION</h3>
@@ -271,72 +273,68 @@ function Privacy() {
                     sharing with our affiliates for related business purposes,
                     and as follows:
                 </p>
-                <p>
-                    <ul>
-                        <li>
-                            <u>To provide and maintain our Service</u>,
-                            including to monitor the usage of our Service.
-                        </li>
-                        <li>
-                            <u>For the performance of a contract</u>: the
-                            development, compliance and undertaking of the
-                            purchase contract for the services you have chosen
-                            or of any other contract with us through the
-                            Service.
-                        </li>
-                        <li>
-                            <u>To contact you</u>: To contact you by email,
-                            telephone calls, SMS, or other equivalent forms of
-                            electronic communication.
-                        </li>
-                        <li>
-                            <u>To manage your requests</u>: To attend and manage
-                            your requests to us.
-                        </li>
-                        <li>
-                            <u>To respond to your requests and questions</u>,
-                            resolve disputes, investigate and address your
-                            concerns, and monitor and improve our responses;
-                        </li>
-                        <li>
-                            <u>
-                                To help maintain the safety, security, and
-                                integrity of our Website
-                            </u>
-                            , databases, and technology assets and to detect and
-                            prevent transactional fraud;
-                        </li>
-                        <li>
-                            <u>
-                                For testing, research, analysis, and a product
-                                and service development
-                            </u>
-                            , including to improve our Website and services;
-                        </li>
-                        <li>
-                            <u>
-                                For facilitating and processing your
-                                transactions with us and with our third party
-                                affiliates and business partners;
-                            </u>
-                        </li>
-                        <li>
-                            <u>
-                                To respond to law enforcement requests and as
-                                required by applicable laws
-                            </u>
-                            , court orders, or governmental regulations;
-                        </li>
-                        <li>
-                            <u>For other purposes</u>: We may use Your
-                            information for other purposes, such as data
-                            analysis, identifying usage trends, determining the
-                            effectiveness of our promotional campaigns and to
-                            evaluate and improve our Service, marketing and your
-                            experience.
-                        </li>
-                    </ul>
-                </p>
+                <ul>
+                    <li>
+                        <u>To provide and maintain our Service</u>, including to
+                        monitor the usage of our Service.
+                    </li>
+                    <li>
+                        <u>For the performance of a contract</u>: the
+                        development, compliance and undertaking of the purchase
+                        contract for the services you have chosen or of any
+                        other contract with us through the Service.
+                    </li>
+                    <li>
+                        <u>To contact you</u>: To contact you by email,
+                        telephone calls, SMS, or other equivalent forms of
+                        electronic communication.
+                    </li>
+                    <li>
+                        <u>To manage your requests</u>: To attend and manage
+                        your requests to us.
+                    </li>
+                    <li>
+                        <u>To respond to your requests and questions</u>,
+                        resolve disputes, investigate and address your concerns,
+                        and monitor and improve our responses;
+                    </li>
+                    <li>
+                        <u>
+                            To help maintain the safety, security, and integrity
+                            of our Website
+                        </u>
+                        , databases, and technology assets and to detect and
+                        prevent transactional fraud;
+                    </li>
+                    <li>
+                        <u>
+                            For testing, research, analysis, and a product and
+                            service development
+                        </u>
+                        , including to improve our Website and services;
+                    </li>
+                    <li>
+                        <u>
+                            For facilitating and processing your transactions
+                            with us and with our third party affiliates and
+                            business partners;
+                        </u>
+                    </li>
+                    <li>
+                        <u>
+                            To respond to law enforcement requests and as
+                            required by applicable laws
+                        </u>
+                        , court orders, or governmental regulations;
+                    </li>
+                    <li>
+                        <u>For other purposes</u>: We may use Your information
+                        for other purposes, such as data analysis, identifying
+                        usage trends, determining the effectiveness of our
+                        promotional campaigns and to evaluate and improve our
+                        Service, marketing and your experience.
+                    </li>
+                </ul>
                 <b>
                     <u>
                         We process personal data on the following legal basis
@@ -344,63 +342,69 @@ function Privacy() {
                     </u>
                 </b>
                 <table className="privacy-table">
-                    <tr>
-                        <th>Purpose</th>
-                        <th>Legal basis</th>
-                    </tr>
-                    <tr>
-                        <td>
-                            Offering communication between Sejdo Marble and the
-                            visitor.
-                        </td>
-                        <td>
-                            Legitimate interest of Sejdo Marble to offer
-                            visitors an efficient way to communicate with its
-                            teams.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Responding to the User/visitor’s request for
-                            information related to the Services offered by Sejdo
-                            Marble or request for assistance
-                        </td>
-                        <td>
-                            <ul>
-                                <li>
-                                    Legitimate interest of Sejdo Marble to offer
-                                    its visitors a mean to contact support
-                                    teams.
-                                </li>
-                                <li>Contract with User.</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Manage the request(s) of the Users related to their
-                            data protection rights
-                        </td>
-                        <td>Legal obligation of Sejdo Marble</td>
-                    </tr>
-                    <tr>
-                        <td>Enhance and improve the Services and Website</td>
-                        <td>
-                            Legitimate interests of Sejdo Marble to offer
-                            optimized Services.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Justify and demonstrate Sejdo Marble’s compliance
-                            with legal obligations in case of legal request
-                            and/or legal proceedings
-                        </td>
-                        <td>
-                            Legitimate interest of Sejdo Marble to be able to
-                            demonstrate its compliance.
-                        </td>
-                    </tr>
+                    <thead>
+                        <tr>
+                            <th>Purpose</th>
+                            <th>Legal basis</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Offering communication between Sejdo Marble and
+                                the visitor.
+                            </td>
+                            <td>
+                                Legitimate interest of Sejdo Marble to offer
+                                visitors an efficient way to communicate with
+                                its teams.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Responding to the User/visitor’s request for
+                                information related to the Services offered by
+                                Sejdo Marble or request for assistance
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        Legitimate interest of Sejdo Marble to
+                                        offer its visitors a mean to contact
+                                        support teams.
+                                    </li>
+                                    <li>Contract with User.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Manage the request(s) of the Users related to
+                                their data protection rights
+                            </td>
+                            <td>Legal obligation of Sejdo Marble</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Enhance and improve the Services and Website
+                            </td>
+                            <td>
+                                Legitimate interests of Sejdo Marble to offer
+                                optimized Services.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Justify and demonstrate Sejdo Marble’s
+                                compliance with legal obligations in case of
+                                legal request and/or legal proceedings
+                            </td>
+                            <td>
+                                Legitimate interest of Sejdo Marble to be able
+                                to demonstrate its compliance.
+                            </td>
+                        </tr>
+                    </tbody>
                 </table>
                 {/*5---############################################################### */}
                 <h3>6. METHODS OF DATA PROCESSING</h3>
@@ -448,87 +452,81 @@ function Privacy() {
                     In this case, <b>Sejdo Marble</b> processes personal data in
                     Albania.
                 </p>{" "}
-                <p>
+                We may share your personal data with following recipients:
+                <ul>
                     {" "}
-                    We may share your personal data with following recipients:
-                    <ul>
+                    <li>
+                        <b>Internal recipients</b> – your Personal data will
+                        only be disclosed to authorize employees that require an
+                        access to fulfil their obligations (e.g. support teams,
+                        developers, etc.). Our employees are specifically
+                        trained and made aware of the sensitivity of your
+                        Personal data and the requirements necessary to ensure
+                        the protection of your right to privacy.{" "}
+                    </li>{" "}
+                    <li>
                         {" "}
-                        <li>
-                            <b>Internal recipients</b> – your Personal data will
-                            only be disclosed to authorize employees that
-                            require an access to fulfil their obligations (e.g.
-                            support teams, developers, etc.). Our employees are
-                            specifically trained and made aware of the
-                            sensitivity of your Personal data and the
-                            requirements necessary to ensure the protection of
-                            your right to privacy.{" "}
-                        </li>{" "}
-                        <li>
-                            {" "}
-                            <b>Processors</b> – in order to provide the
-                            Services, Sejdo Marble may communicate your Personal
-                            data to other entities acting as data processors.{" "}
-                        </li>{" "}
-                        <li>
-                            {" "}
-                            <b>Partners and third parties</b> – in order to
-                            provide the Services, Sejdo Marble may communicate
-                            your Personal data to third party service providers.{" "}
-                        </li>{" "}
-                        <li>
-                            {" "}
-                            <b>
-                                Judicial, administrative and other public
-                                authorities – Sejdo Marble
-                            </b>{" "}
-                            may have to share or disclose some of your Personal
-                            data if it is required to do so by the law, by a
-                            request meaning from a competent authority., to
-                            comply with a court order, to obtain legal remedies
-                            or defend Sejdo Marble’s rights, to contribute with
-                            investigations (e.g. fraud, identity theft, etc.).
-                        </li>
-                    </ul>
-                </p>
+                        <b>Processors</b> – in order to provide the Services,
+                        Sejdo Marble may communicate your Personal data to other
+                        entities acting as data processors.{" "}
+                    </li>{" "}
+                    <li>
+                        {" "}
+                        <b>Partners and third parties</b> – in order to provide
+                        the Services, Sejdo Marble may communicate your Personal
+                        data to third party service providers.{" "}
+                    </li>{" "}
+                    <li>
+                        {" "}
+                        <b>
+                            Judicial, administrative and other public
+                            authorities – Sejdo Marble
+                        </b>{" "}
+                        may have to share or disclose some of your Personal data
+                        if it is required to do so by the law, by a request
+                        meaning from a competent authority., to comply with a
+                        court order, to obtain legal remedies or defend Sejdo
+                        Marble’s rights, to contribute with investigations (e.g.
+                        fraud, identity theft, etc.).
+                    </li>
+                </ul>
                 {/*7---############################################################### */}
                 <h3>8. RETENTION TIME</h3>
                 <p>
                     Personal Data shall be processed and stored for as long as
                     required by the purpose they have been collected for.
                     Therefore:{" "}
-                    <ul>
-                        {" "}
-                        <li>
-                            Personal Data collected on the basis of Users
-                            consent.
-                        </li>
-                        <li>
-                            Personal Data collected for the purposes of the
-                            Owner’s legitimate interests shall be retained as
-                            long as needed to fulfil such purposes. Users may
-                            find specific information regarding the legitimate
-                            interests pursued by the Owner within the relevant
-                            sections of this document or by contacting the
-                            Owner.
-                        </li>
-                    </ul>{" "}
-                    <p>
-                        <b>Sejdo Marble</b> may be allowed to retain Personal
-                        Data for a longer period whenever the User has given
-                        consent to such processing, as long as such consent is
-                        not withdrawn. Furthermore, the Owner may be obliged to
-                        retain Personal Data for a longer period whenever
-                        required to do so for the performance of a legal
-                        obligation or upon order of an authority.
-                    </p>
-                    <p>
-                        {" "}
-                        Once the retention period expires, Personal Data shall
-                        be deleted. Therefore, the right of access, the right to
-                        erasure, the right to rectification and the right to
-                        data portability cannot be enforced after expiration of
-                        the retention period.
-                    </p>
+                </p>
+                <ul>
+                    {" "}
+                    <li>
+                        Personal Data collected on the basis of Users consent.
+                    </li>
+                    <li>
+                        Personal Data collected for the purposes of the Owner’s
+                        legitimate interests shall be retained as long as needed
+                        to fulfil such purposes. Users may find specific
+                        information regarding the legitimate interests pursued
+                        by the Owner within the relevant sections of this
+                        document or by contacting the Owner.
+                    </li>
+                </ul>{" "}
+                <p>
+                    <b>Sejdo Marble</b> may be allowed to retain Personal Data
+                    for a longer period whenever the User has given consent to
+                    such processing, as long as such consent is not withdrawn.
+                    Furthermore, the Owner may be obliged to retain Personal
+                    Data for a longer period whenever required to do so for the
+                    performance of a legal obligation or upon order of an
+                    authority.
+                </p>
+                <p>
+                    {" "}
+                    Once the retention period expires, Personal Data shall be
+                    deleted. Therefore, the right of access, the right to
+                    erasure, the right to rectification and the right to data
+                    portability cannot be enforced after expiration of the
+                    retention period.
                 </p>
                 {/*8---############################################################### */}
                 <h3>9. RIGHTS UNDER GDPR</h3>
@@ -536,171 +534,167 @@ function Privacy() {
                     Users may exercise certain rights regarding their Data
                     processed by <b>Sejdo Marble</b>. In particular, Users have
                     the right to do the following:{" "}
-                    <ul>
+                </p>
+                <ul>
+                    {" "}
+                    <li>
                         {" "}
-                        <li>
-                            {" "}
-                            <b>Withdraw consent at any time</b>. Users have the
-                            right to withdraw consent where they have previously
-                            given their consent to the processing of their
-                            Personal Data.{" "}
-                        </li>
-                        <li>
-                            <b>Object to processing of Data</b>. Users have the
-                            right to object to the processing of their Data if
-                            the processing is carried out on a legal basis other
-                            than consent. Further details are provided in the
-                            dedicated section below.{" "}
-                        </li>
-                        <li>
-                            {" "}
-                            <b>Access Data</b>. Users have the right to learn if
-                            Data is being processed by the Owner, obtain
-                            disclosure regarding certain aspects of the
-                            processing and obtain a copy of the Data undergoing
-                            processing.{" "}
-                        </li>
-                        <li>
-                            {" "}
-                            <b>Verify and seek rectification</b>. Users have the
-                            right to verify the accuracy of their Data and ask
-                            for it to be updated or corrected.{" "}
-                        </li>
-                        <li>
-                            {" "}
-                            <b>Restrict the processing of their Data</b>. Users
-                            have the right, under certain circumstances, to
-                            restrict the processing of their Data. In this case,
-                            the Owner will not process their Data for any
-                            purpose other than storing it.{" "}
-                        </li>
-                        <li>
-                            {" "}
-                            <b>
-                                Have their Personal Data deleted or otherwise
-                                removed
-                            </b>
-                            . Users have the right, under certain circumstances,
-                            to obtain the erasure of their Data from the Owner.{" "}
-                        </li>
-                        <li>
-                            {" "}
-                            <b>
-                                Receive their Data and have it transferred to
-                                another controller
-                            </b>
-                            . Users have the right to receive their Data in a
-                            structured, commonly used and machine readable
-                            format and, if technically feasible, to have it
-                            transmitted to another controller without any
-                            hindrance. This provision is applicable provided
-                            that the Data is processed by automated means and
-                            that the processing is based on the User's consent,
-                            on a contract which the User is part of or on
-                            pre-contractual obligations thereof.{" "}
-                        </li>
-                        <li>
-                            {" "}
-                            <b>Lodge a complaint</b>. Users have the right to
-                            bring a claim before their competent data protection
-                            authority.
-                        </li>{" "}
-                    </ul>
-                    <p>
-                        Any requests to exercise User rights can be directed to
-                        Sejdo Marble through the contact details provided in
-                        this document. These requests can be exercised free of
-                        charge and will be addressed by the Owner as early as
-                        possible and always within one month.
-                    </p>
-                    <p>
+                        <b>Withdraw consent at any time</b>. Users have the
+                        right to withdraw consent where they have previously
+                        given their consent to the processing of their Personal
+                        Data.{" "}
+                    </li>
+                    <li>
+                        <b>Object to processing of Data</b>. Users have the
+                        right to object to the processing of their Data if the
+                        processing is carried out on a legal basis other than
+                        consent. Further details are provided in the dedicated
+                        section below.{" "}
+                    </li>
+                    <li>
                         {" "}
-                        If user has any issues regarding data processing done by{" "}
-                        <b>Sejdo Marble</b>, user can send request to competent
-                        national data protection authority.
-                    </p>
+                        <b>Access Data</b>. Users have the right to learn if
+                        Data is being processed by the Owner, obtain disclosure
+                        regarding certain aspects of the processing and obtain a
+                        copy of the Data undergoing processing.{" "}
+                    </li>
+                    <li>
+                        {" "}
+                        <b>Verify and seek rectification</b>. Users have the
+                        right to verify the accuracy of their Data and ask for
+                        it to be updated or corrected.{" "}
+                    </li>
+                    <li>
+                        {" "}
+                        <b>Restrict the processing of their Data</b>. Users have
+                        the right, under certain circumstances, to restrict the
+                        processing of their Data. In this case, the Owner will
+                        not process their Data for any purpose other than
+                        storing it.{" "}
+                    </li>
+                    <li>
+                        {" "}
+                        <b>
+                            Have their Personal Data deleted or otherwise
+                            removed
+                        </b>
+                        . Users have the right, under certain circumstances, to
+                        obtain the erasure of their Data from the Owner.{" "}
+                    </li>
+                    <li>
+                        {" "}
+                        <b>
+                            Receive their Data and have it transferred to
+                            another controller
+                        </b>
+                        . Users have the right to receive their Data in a
+                        structured, commonly used and machine readable format
+                        and, if technically feasible, to have it transmitted to
+                        another controller without any hindrance. This provision
+                        is applicable provided that the Data is processed by
+                        automated means and that the processing is based on the
+                        User's consent, on a contract which the User is part of
+                        or on pre-contractual obligations thereof.{" "}
+                    </li>
+                    <li>
+                        {" "}
+                        <b>Lodge a complaint</b>. Users have the right to bring
+                        a claim before their competent data protection
+                        authority.
+                    </li>{" "}
+                </ul>
+                <p>
+                    Any requests to exercise User rights can be directed to
+                    Sejdo Marble through the contact details provided in this
+                    document. These requests can be exercised free of charge and
+                    will be addressed by the Owner as early as possible and
+                    always within one month.
+                </p>
+                <p>
+                    {" "}
+                    If user has any issues regarding data processing done by{" "}
+                    <b>Sejdo Marble</b>, user can send request to competent
+                    national data protection authority.
                 </p>
                 {/*9---############################################################### */}
                 <h3>
                     10. ADDITIONAL INFORMATION ABOUT DATA COLLECTION AND
                     PROCESSING
                 </h3>
+                <h4>Legal action</h4>
                 <p>
-                    <h4>Legal action</h4>
-                    <p>
-                        The User's Personal Data may be used for legal purposes
-                        by <b>Sejdo Marble</b> in Court or in the stages leading
-                        to possible legal action arising from improper use of
-                        this Website or the related Services.
-                    </p>{" "}
-                    <h4>System logs and maintenance</h4>{" "}
-                    <p>
-                        For operation and maintenance purposes, this Website and
-                        any third-party services may collect files that record
-                        interaction with this Website (System logs) use other
-                        Personal Data (such as the IP Address) for this purpose.
-                    </p>
-                    <h4>Information not contained in this policy</h4>{" "}
-                    <p>
-                        More details concerning the collection or processing of
-                        Personal Data may be requested from <b>Sejdo Marble</b>{" "}
-                        at any time. Please see the contact information at the
-                        beginning of this document.
-                    </p>
-                    <h4>Visiting Third-Party Websites</h4>{" "}
-                    <p>
-                        Our Website may contain links or references to third
-                        party websites. These Websites are outside of our
-                        control, and the privacy policies of these sites may
-                        differ from our own. Please be aware that we have no
-                        control over these third-party websites and our Privacy
-                        Notice does not apply to such websites. We encourage you
-                        to check the terms of use and privacy policies of such
-                        sites before disclosing any personal information via
-                        such sites. The privacy notice of the third party site
-                        will govern how information collected from you is used
-                        by the owner of the website. You can always know what
-                        Website you are on by checking the Uniform Resource
-                        Locator (URL) in the location bar within your browser.{" "}
-                    </p>
-                    <h4>Google reCAPTCHA </h4>
-                    <p>
-                        "Google reCAPTCHA" (hereinafter "reCAPTCHA") is
-                        implemented on our website. This service is provided by
-                        Google Inc., 1600 Amphitheatre Parkway, Mountain View,
-                        CA 94043, USA ("Google").
-                    </p>
-                    <p>
-                        {" "}
-                        We use reCHAPTA on our websites to prevent various types
-                        of data processing abuse attempts (e.g. phishing).
-                        reCHAPTA analyzes various information of the respective
-                        visitor (e.g. IP address, mouse movements of the user,
-                        length of stay on the website). By using reCAPTCHA, data
-                        is transferred to Google, which is used to determine
-                        whether the visitor is a human being or a (spam) bot.
-                    </p>
-                    <p>
-                        The data processing is based on Article 6, subparagraph
-                        f) of GDPR. The controller has a legitimate interest in
-                        protecting its web offers against abusive automated
-                        spying, against spam as well as protecting third parties
-                        against such attacks.
-                    </p>
-                    <p>
-                        {" "}
-                        You can read which data is collected by Google and what
-                        this data is used for at{" "}
-                        <a href="https://policies.google.com/privacy">
-                            https://policies.google.com/privacy
-                        </a>
-                        . You can read the terms of use for Google services and
-                        products at{" "}
-                        <a href="https://policies.google.com/terms">
-                            https://policies.google.com/terms
-                        </a>
-                        .
-                    </p>
+                    The User's Personal Data may be used for legal purposes by{" "}
+                    <b>Sejdo Marble</b> in Court or in the stages leading to
+                    possible legal action arising from improper use of this
+                    Website or the related Services.
+                </p>{" "}
+                <h4>System logs and maintenance</h4>{" "}
+                <p>
+                    For operation and maintenance purposes, this Website and any
+                    third-party services may collect files that record
+                    interaction with this Website (System logs) use other
+                    Personal Data (such as the IP Address) for this purpose.
+                </p>
+                <h4>Information not contained in this policy</h4>{" "}
+                <p>
+                    More details concerning the collection or processing of
+                    Personal Data may be requested from <b>Sejdo Marble</b> at
+                    any time. Please see the contact information at the
+                    beginning of this document.
+                </p>
+                <h4>Visiting Third-Party Websites</h4>{" "}
+                <p>
+                    Our Website may contain links or references to third party
+                    websites. These Websites are outside of our control, and the
+                    privacy policies of these sites may differ from our own.
+                    Please be aware that we have no control over these
+                    third-party websites and our Privacy Notice does not apply
+                    to such websites. We encourage you to check the terms of use
+                    and privacy policies of such sites before disclosing any
+                    personal information via such sites. The privacy notice of
+                    the third party site will govern how information collected
+                    from you is used by the owner of the website. You can always
+                    know what Website you are on by checking the Uniform
+                    Resource Locator (URL) in the location bar within your
+                    browser.{" "}
+                </p>
+                <h4>Google reCAPTCHA </h4>
+                <p>
+                    "Google reCAPTCHA" (hereinafter "reCAPTCHA") is implemented
+                    on our website. This service is provided by Google Inc.,
+                    1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+                    ("Google").
+                </p>
+                <p>
+                    {" "}
+                    We use reCHAPTA on our websites to prevent various types of
+                    data processing abuse attempts (e.g. phishing). reCHAPTA
+                    analyzes various information of the respective visitor (e.g.
+                    IP address, mouse movements of the user, length of stay on
+                    the website). By using reCAPTCHA, data is transferred to
+                    Google, which is used to determine whether the visitor is a
+                    human being or a (spam) bot.
+                </p>
+                <p>
+                    The data processing is based on Article 6, subparagraph f)
+                    of GDPR. The controller has a legitimate interest in
+                    protecting its web offers against abusive automated spying,
+                    against spam as well as protecting third parties against
+                    such attacks.
+                </p>
+                <p>
+                    {" "}
+                    You can read which data is collected by Google and what this
+                    data is used for at{" "}
+                    <a href="https://policies.google.com/privacy">
+                        https://policies.google.com/privacy
+                    </a>
+                    . You can read the terms of use for Google services and
+                    products at{" "}
+                    <a href="https://policies.google.com/terms">
+                        https://policies.google.com/terms
+                    </a>
+                    .
                 </p>
                 {/*10---############################################################### */}
                 <h3>11. CHANGES TO THIS PRIVACY POLICY</h3>
