@@ -90,13 +90,28 @@
     border: 0;
 }
 
+.home__hero-img-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
 @media screen and (max-width: 984px) {
     .home__hero-section {
-        background-color: #c2b59b;
+        background: rgb(194, 181, 155);
+        background: linear-gradient(
+            180deg,
+            rgba(194, 181, 155, 1) 0%,
+            rgba(76, 69, 60, 1) 85%
+        );
     }
 
     .darkBg {
-        background-color: #4c453c;
+        background: rgb(76, 69, 60);
+        background: linear-gradient(
+            180deg,
+            rgba(76, 69, 60, 1) 25%,
+            rgba(193, 181, 157, 1) 100%
+        );
     }
 
     .heading {
